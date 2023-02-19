@@ -15,7 +15,8 @@ module.exports = {
   ignorePatterns: [
     "dist",
     "storybook-static",
-    "stories"
+    "**/*.stories.tsx",
+    "**/*.test.js",
   ],
   extends: [
     "airbnb-base",
