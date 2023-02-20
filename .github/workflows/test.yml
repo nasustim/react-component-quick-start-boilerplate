@@ -6,7 +6,7 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
-    timeout-minutes: 5 # 仮
+    timeout-minutes: 5
     steps:
       - uses: actions/checkout@v3.3.0
 
