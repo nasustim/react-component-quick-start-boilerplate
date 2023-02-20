@@ -1,5 +1,7 @@
 import React from "react";
 
-const Component = () => <p>edit me!</p>;
+type Props = {}
+
+const Component: React.FC<Props> = () => <p>edit me!</p>;
 
 export default Component;
