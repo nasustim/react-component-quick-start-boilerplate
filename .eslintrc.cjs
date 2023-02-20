@@ -22,6 +22,7 @@ module.exports = {
     "airbnb-base",
     "airbnb-typescript/base",
     "plugin:@typescript-eslint/recommended-requiring-type-checking",
+    "prettier"
   ],
   rules: {
     "import/prefer-default-export": "off",
