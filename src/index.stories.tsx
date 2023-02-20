@@ -1,11 +1,11 @@
-import React from "react";
-import { ComponentStory, ComponentMeta } from "@storybook/react";
+import React from 'react'
+import { ComponentStory, ComponentMeta } from '@storybook/react'
 
-import Component from ".";
+import Component from '.'
 
 export default {
-  title: "Component",
+  title: 'Component',
   component: Component,
-} as ComponentMeta<typeof Component>;
+} as ComponentMeta<typeof Component>
 
-export const Normal: ComponentStory<typeof Component> = () => <Component />;
+export const Normal: ComponentStory<typeof Component> = () => <Component />
